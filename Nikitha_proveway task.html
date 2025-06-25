@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box" id="box1">
+      <div class="box-header">Top Box</div>
+      <div class="box-content">
+        <p>Select Color:</p>
+        <div class="options">
+          <button class="color" style="background: red;"></button>
+          <button class="color" style="background: blue;"></button>
+          <button class="color" style="background: green;"></button>
+        </div>
+        <p>Select Size:</p>
+        <div class="options">
+          <button class="size">S</button>
+          <button class="size">M</button>
+          <button class="size">L</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="box2">
+      <div class="box-header">Middle Box</div>
+      <div class="box-content">
+        <p>Select Color:</p>
+        <div class="options">
+          <button class="color" style="background: orange;"></button>
+          <button class="color" style="background: purple;"></button>
+          <button class="color" style="background: yellow;"></button>
+        </div>
+        <p>Select Size:</p>
+        <div class="options">
+          <button class="size">XS</button>
+          <button class="size">M</button>
+          <button class="size">XL</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="box3">
+      <div class="box-header">Bottom Box</div>
+      <div class="box-content">
+        <p>Select Color:</p>
+        <div class="options">
+          <button class="color" style="background: black;"></button>
+          <button class="color" style="background: gray;"></button>
+          <button class="color" style="background: white; border: 1px solid #ccc;"></button>
+        </div>
+        <p>Select Size:</p>
+        <div class="options">
+          <button class="size">M</button>
+          <button class="size">L</button>
+          <button class="size">XXL</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
